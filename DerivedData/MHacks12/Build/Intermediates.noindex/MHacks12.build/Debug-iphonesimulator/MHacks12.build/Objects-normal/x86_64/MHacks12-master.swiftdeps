@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "85e1e44080b5d690dcb5aec7d5facdd3"
+build_time: [1570916387, 965600000]
+inputs:
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/ViewControllerLogIn.swift": [1570916387, 193317163]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/ViewControllerHome.swift": [1570915537, 62263739]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/ViewControllerSignUp.swift": [1570910773, 555338314]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/ViewControllerUI + Validation.swift": [1570910773, 507203521]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/ViewController.swift": [1570905612, 135353729]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/AppDelegate.swift": [1570901221, 340215679]
+  "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/MHacks12/SceneDelegate.swift": [1570900918, 399063930]

@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceID+Private.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/Private/FIRInstanceIDCheckinPreferences.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h

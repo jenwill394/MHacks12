@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthProvider.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFederatedAuthProvider.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthUIDelegate.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthBackend.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuth_Internal.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthErrorUtils.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRequestConfiguration.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCRequest.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthWebUtils.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRFacebookAuthProvider.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIROAuthCredential.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/FirebaseAuth/Firebase/Auth/Source/Utilities/FIRAuthURLPresenter.h
