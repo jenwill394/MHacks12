@@ -75,7 +75,7 @@
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <action selector="logInButtonPressed:" destination="Mpe-5a-Ygu" eventType="touchUpInside" id="pIL-ng-RMm"/>
-                                    <segue destination="WHZ-G3-HT9" kind="show" id="xgH-3X-HlT"/>
+                                    <segue destination="WHZ-G3-HT9" kind="show" id="VWG-5D-HsR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -181,6 +181,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xgH-3X-HlT"/>
+        <segue reference="VWG-5D-HsR"/>
     </inferredMetricsTieBreakers>
 </document>
