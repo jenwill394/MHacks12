@@ -12,8 +12,8 @@ class ItemCell: UITableViewCell {
 
     @IBOutlet weak var Item: UILabel!
     
-    func setItem(item: Item){
-        Item.text = item.title
+    func setItem(item: String){
+        Item.text = item
     }
 
 }

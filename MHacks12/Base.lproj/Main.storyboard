@@ -23,6 +23,7 @@
                                 <connections>
                                     <action selector="TransferToSignUpPage:" destination="9sC-df-e5p" eventType="touchUpInside" id="PHx-7z-nLX"/>
                                     <action selector="tranferToSignUpPage:" destination="9sC-df-e5p" eventType="touchUpInside" id="6V6-Po-tN3"/>
+                                    <action selector="tranferToSignUpPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpq-Xk-anZ"/>
                                     <segue destination="sxv-Wf-iGu" kind="show" id="8dM-Wq-acJ"/>
                                 </connections>
                             </button>
@@ -34,6 +35,7 @@
                                 <connections>
                                     <action selector="TransferToLogInPage:" destination="9sC-df-e5p" eventType="touchUpInside" id="TPW-p4-33W"/>
                                     <action selector="transferToLogInPage:" destination="9sC-df-e5p" eventType="touchUpInside" id="9Iy-ZK-8B1"/>
+                                    <action selector="transferToLogInPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dbD-se-yIy"/>
                                     <segue destination="Mpe-5a-Ygu" kind="show" id="uft-Yk-0xz"/>
                                 </connections>
                             </button>
@@ -75,7 +77,7 @@
                                 <state key="normal" title="Log In"/>
                                 <connections>
                                     <action selector="logInButtonPressed:" destination="Mpe-5a-Ygu" eventType="touchUpInside" id="pIL-ng-RMm"/>
-                                    <segue destination="h16-1B-8C3" kind="show" id="pdH-6z-xno"/>
+                                    <segue destination="e4E-ee-cR6" kind="show" identifier="View" id="BZ6-Ie-gx4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -107,7 +109,7 @@
                                 <state key="normal" title="Create Account"/>
                                 <connections>
                                     <action selector="signupButtonPressed:" destination="sxv-Wf-iGu" eventType="touchUpInside" id="1gF-oc-CQw"/>
-                                    <segue destination="h16-1B-8C3" kind="show" id="rng-7H-fON"/>
+                                    <segue destination="e4E-ee-cR6" kind="show" identifier="Home" id="Pny-Zk-irz"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d0S-tJ-6WY">
@@ -191,12 +193,11 @@
                     <navigationItem key="navigationItem" id="ydG-O2-Oe2"/>
                     <connections>
                         <outlet property="TableView" destination="Ckb-2e-vk4" id="LT8-Sp-Atq"/>
-                        <outlet property="tableView" destination="Ckb-2e-vk4" id="r1i-o2-TJG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2P3-Xg-fbv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4345" y="-587"/>
+            <point key="canvasLocation" x="5397.1014492753629" y="-587.27678571428567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xdK-Ov-3og">
@@ -216,27 +217,8 @@
             </objects>
             <point key="canvasLocation" x="602.89855072463774" y="-646.20535714285711"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="2AR-Ch-J0E">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="h16-1B-8C3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="VCH-6w-CQ4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JXw-EP-Rdo">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="e4E-ee-cR6" kind="relationship" relationship="rootViewController" id="lCE-su-PAQ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xl8-aF-w1L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3483" y="-587"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rng-7H-fON"/>
+        <segue reference="Pny-Zk-irz"/>
     </inferredMetricsTieBreakers>
 </document>

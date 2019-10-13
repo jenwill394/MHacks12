@@ -22,6 +22,7 @@ depends-top-level:
 - !private "Auth"
 - "Bool"
 - !private "BooleanLiteralType"
+- "CastingPrecedence"
 - !private "NSLocalizedString"
 - "StringLiteralType"
 - "UIButton"
@@ -288,6 +289,7 @@ depends-member:
 - ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UITapGestureRecognizer"]
 - ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UITextFieldDelegate"]
 - !private ["So8NSObjectC", "addGestureRecognizer"]
 - !private ["So8NSObjectC", "auth"]
 - !private ["So8NSObjectC", "becomeFirstResponder"]
@@ -526,6 +528,7 @@ depends-member:
 - ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UITapGestureRecognizer"]
 - ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UITextFieldDelegate"]
 - !private ["So11UIResponderC", "addGestureRecognizer"]
 - !private ["So11UIResponderC", "becomeFirstResponder"]
 - !private ["So11UIResponderC", "delegate"]
@@ -726,6 +729,7 @@ depends-member:
 - ["So16UIViewControllerC", "UIButton"]
 - !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
 - ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UITextFieldDelegate"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "dismissKeyboard"]
@@ -756,6 +760,7 @@ depends-member:
 - ["8MHacks1219ViewControllerLogInC", "UIButton"]
 - !private ["8MHacks1219ViewControllerLogInC", "UITapGestureRecognizer"]
 - ["8MHacks1219ViewControllerLogInC", "UITextField"]
+- !private ["8MHacks1219ViewControllerLogInC", "UITextFieldDelegate"]
 - ["8MHacks1219ViewControllerLogInC", "deinit"]
 - ["8MHacks1219ViewControllerLogInC", "didReceiveMemoryWarning"]
 - ["8MHacks1219ViewControllerLogInC", "dismissKeyboard"]

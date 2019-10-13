@@ -181,6 +181,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -209,6 +210,33 @@ SWIFT_CLASS("_TtC8MHacks1211AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8MHacks128ItemCell")
+@interface ItemCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified Item;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC8MHacks1224ListScreenViewController")
+@interface ListScreenViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ListScreenViewController (SWIFT_EXTENSION(MHacks12)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIScene;
 @class UISceneSession;
 @class UISceneConnectionOptions;
@@ -227,21 +255,11 @@ SWIFT_CLASS("_TtC8MHacks1213SceneDelegate")
 
 
 
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC8MHacks1214ViewController")
 @interface ViewController : UIViewController
 - (IBAction)transferToLogInPage:(id _Nonnull)sender;
 - (IBAction)tranferToSignUpPage:(id _Nonnull)sender;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC8MHacks1218ViewControllerHome")
-@interface ViewControllerHome : UIViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -276,7 +294,6 @@ SWIFT_CLASS("_TtC8MHacks1220ViewControllerSignUp")
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (IBAction)signupButtonPressed:(UIButton * _Nonnull)sender;
-- (IBAction)cancelButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

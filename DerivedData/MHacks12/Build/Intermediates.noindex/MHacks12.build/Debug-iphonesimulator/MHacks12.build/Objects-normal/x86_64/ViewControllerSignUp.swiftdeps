@@ -6,7 +6,6 @@ provides-nominal:
 provides-member:
 - ["8MHacks1220ViewControllerSignUpC", ""]
 provides-dynamic-lookup:
-- "cancelButtonPressed"
 - "didReceiveMemoryWarning"
 - "emailField"
 - "nameField"
@@ -41,7 +40,6 @@ depends-member:
 - !private ["s7CVarArgP", "becomeFirstResponder"]
 - !private ["s7CVarArgP", "createUser"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
-- !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "emailField"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isEmptyOrNil"]
@@ -68,7 +66,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
 - !private ["s28CustomDebugStringConvertibleP", "createUser"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "emailField"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmptyOrNil"]
@@ -97,7 +94,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
 - !private ["s23CustomStringConvertibleP", "createUser"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "emailField"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isEmptyOrNil"]
@@ -128,7 +124,6 @@ depends-member:
 - !private ["SQ", "becomeFirstResponder"]
 - !private ["SQ", "createUser"]
 - !private ["SQ", "didReceiveMemoryWarning"]
-- !private ["SQ", "dismiss"]
 - !private ["SQ", "emailField"]
 - !private ["SQ", "init"]
 - !private ["SQ", "isEmptyOrNil"]
@@ -158,7 +153,6 @@ depends-member:
 - !private ["SH", "becomeFirstResponder"]
 - !private ["SH", "createUser"]
 - !private ["SH", "didReceiveMemoryWarning"]
-- !private ["SH", "dismiss"]
 - !private ["SH", "emailField"]
 - !private ["SH", "init"]
 - !private ["SH", "isEmptyOrNil"]
@@ -183,7 +177,6 @@ depends-member:
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "becomeFirstResponder"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
-- !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "emailField"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isEmptyOrNil"]
@@ -207,7 +200,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
-- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "emailField"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "isEmptyOrNil"]
@@ -233,10 +225,8 @@ depends-member:
 - ["So8NSObjectC", "UITextField"]
 - !private ["So8NSObjectC", "auth"]
 - !private ["So8NSObjectC", "becomeFirstResponder"]
-- ["So8NSObjectC", "cancelButtonPressed"]
 - !private ["So8NSObjectC", "createUser"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
-- !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "emailField"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isEmptyOrNil"]
@@ -265,7 +255,6 @@ depends-member:
 - !private ["So8NSObjectP", "becomeFirstResponder"]
 - !private ["So8NSObjectP", "createUser"]
 - !private ["So8NSObjectP", "didReceiveMemoryWarning"]
-- !private ["So8NSObjectP", "dismiss"]
 - !private ["So8NSObjectP", "emailField"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "isEmptyOrNil"]
@@ -296,7 +285,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
-- !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "emailField"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "isEmptyOrNil"]
@@ -320,7 +308,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "Auth"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
-- !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "emailField"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "isEmptyOrNil"]
@@ -352,7 +339,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
-- !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "emailField"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "isEmptyOrNil"]
@@ -385,7 +371,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
-- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "emailField"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "isEmptyOrNil"]
@@ -411,9 +396,7 @@ depends-member:
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UITextField"]
 - !private ["So11UIResponderC", "becomeFirstResponder"]
-- ["So11UIResponderC", "cancelButtonPressed"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
-- !private ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "emailField"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isEmptyOrNil"]
@@ -440,7 +423,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
-- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "emailField"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "isEmptyOrNil"]
@@ -464,7 +446,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "Auth"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
-- !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "emailField"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "isEmptyOrNil"]
@@ -492,7 +473,6 @@ depends-member:
 - !private ["So11UITextFieldC", "text"]
 - !private ["So19UITextFieldDelegateP", "Auth"]
 - ["So19UITextFieldDelegateP", ""]
-- !private ["So19UITextFieldDelegateP", "dismiss"]
 - !private ["So19UITextFieldDelegateP", "emailField"]
 - !private ["So19UITextFieldDelegateP", "isEmptyOrNil"]
 - !private ["So19UITextFieldDelegateP", "isValidEmail"]
@@ -520,7 +500,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
-- !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "emailField"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "isEmptyOrNil"]
@@ -545,7 +524,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "becomeFirstResponder"]
 - !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
-- !private ["So23UIUserActivityRestoringP", "dismiss"]
 - !private ["So23UIUserActivityRestoringP", "emailField"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "isEmptyOrNil"]
@@ -573,9 +551,7 @@ depends-member:
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", ""]
-- ["So16UIViewControllerC", "cancelButtonPressed"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
-- !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "emailField"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "isEmptyOrNil"]
@@ -601,10 +577,8 @@ depends-member:
 - ["8MHacks1220ViewControllerSignUpC", "Bool"]
 - ["8MHacks1220ViewControllerSignUpC", "UIButton"]
 - ["8MHacks1220ViewControllerSignUpC", "UITextField"]
-- ["8MHacks1220ViewControllerSignUpC", "cancelButtonPressed"]
 - ["8MHacks1220ViewControllerSignUpC", "deinit"]
 - ["8MHacks1220ViewControllerSignUpC", "didReceiveMemoryWarning"]
-- !private ["8MHacks1220ViewControllerSignUpC", "dismiss"]
 - ["8MHacks1220ViewControllerSignUpC", "emailField"]
 - ["8MHacks1220ViewControllerSignUpC", "init"]
 - !private ["8MHacks1220ViewControllerSignUpC", "isEmptyOrNil"]
@@ -632,7 +606,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "emailField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmptyOrNil"]
@@ -659,7 +632,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "becomeFirstResponder"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createUser"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didReceiveMemoryWarning"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailField"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmptyOrNil"]
@@ -781,9 +753,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/alloca.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSData.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/dispatch/data.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSMetadata.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/ImageIO.framework/Headers/CGImageMetadata.h"
@@ -851,6 +825,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBarAppearance.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIToolbarAppearance.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLFence.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSOrderedCollectionDifference.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/dispatch/once.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDiffableDataSource.h"
@@ -931,6 +906,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIFilterShape.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLCaptureScope.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/ctype.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/_ctype.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/xlocale/_ctype.h"
@@ -962,6 +938,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/dispatch/base.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/os/base.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/Pods/Firebase/CoreOnly/Sources/Firebase.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/readpassphrase.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h"
@@ -988,6 +966,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStoryboardSegue.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStoryboardPopoverSegue.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/mach/time_value.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/mach/vm_page_size.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_fd_setsize.h"
@@ -1801,6 +1780,7 @@ depends-external:
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTextCheckingResult.h"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/_types/_s_ifmt.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGradient.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIMenuElement.h"
@@ -1829,6 +1809,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFont.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/lib/swift/shims/RefCount.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/sys/mount.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/mach/host_reboot.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/mach/vm_prot.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/getopt.h"
@@ -1931,6 +1912,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLLibrary.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/monetary.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/include/xlocale/_monetary.h"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderSearchQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIContentSizeCategory.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UNNotificationCategory.h"
@@ -1968,6 +1950,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreImage.framework/Modules/module.modulemap"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/QuartzCore.framework/Modules/module.modulemap"
+- "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/jenniferwilliams/Desktop/MHacks12/MHacks12/DerivedData/MHacks12/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CFNetwork.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Metal.framework/Modules/module.modulemap"
@@ -1995,4 +1978,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "df7070affc2352984555be79751d7064"
+interface-hash: "115a89a91c14c5d799fbfeaf52982655"

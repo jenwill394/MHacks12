@@ -9,9 +9,8 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "dismissKeyboard"
 - "emailField"
-- "logout"
+- "logInButtonPressed"
 - "passwordField"
-- "signUpButtonPressed"
 - "textFieldShouldReturn"
 - "viewDidLoad"
 depends-top-level:
@@ -23,11 +22,10 @@ depends-top-level:
 - !private "Auth"
 - "Bool"
 - !private "BooleanLiteralType"
-- !private "NSError"
+- "CastingPrecedence"
 - !private "NSLocalizedString"
 - "StringLiteralType"
 - "UIButton"
-- "UIStoryboardSegue"
 - !private "UITapGestureRecognizer"
 - "UITextField"
 - "UITextFieldDelegate"
@@ -37,7 +35,6 @@ depends-top-level:
 depends-member:
 - !private ["So7FIRAuthC", "auth"]
 - !private ["So7FIRAuthC", "signIn"]
-- !private ["So7FIRAuthC", "signOut"]
 - !private ["So15CALayerDelegateP", "addGestureRecognizer"]
 - !private ["So15CALayerDelegateP", "becomeFirstResponder"]
 - !private ["So15CALayerDelegateP", "delegate"]
@@ -63,7 +60,6 @@ depends-member:
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "reportError"]
 - !private ["s7CVarArgP", "signIn"]
-- !private ["s7CVarArgP", "signOut"]
 - !private ["s7CVarArgP", "text"]
 - ["s7CVarArgP", "textField"]
 - ["s7CVarArgP", "textFieldDidBeginEditing"]
@@ -97,7 +93,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "reportError"]
 - !private ["s28CustomDebugStringConvertibleP", "signIn"]
-- !private ["s28CustomDebugStringConvertibleP", "signOut"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - ["s28CustomDebugStringConvertibleP", "textField"]
 - ["s28CustomDebugStringConvertibleP", "textFieldDidBeginEditing"]
@@ -136,7 +131,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "reportError"]
 - !private ["s23CustomStringConvertibleP", "signIn"]
-- !private ["s23CustomStringConvertibleP", "signOut"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - ["s23CustomStringConvertibleP", "textField"]
 - ["s23CustomStringConvertibleP", "textFieldDidBeginEditing"]
@@ -180,7 +174,6 @@ depends-member:
 - !private ["SQ", "print"]
 - !private ["SQ", "reportError"]
 - !private ["SQ", "signIn"]
-- !private ["SQ", "signOut"]
 - !private ["SQ", "text"]
 - ["SQ", "textField"]
 - ["SQ", "textFieldDidBeginEditing"]
@@ -220,7 +213,6 @@ depends-member:
 - !private ["SH", "print"]
 - !private ["SH", "reportError"]
 - !private ["SH", "signIn"]
-- !private ["SH", "signOut"]
 - !private ["SH", "text"]
 - ["SH", "textField"]
 - ["SH", "textFieldDidBeginEditing"]
@@ -293,12 +285,11 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "Bool"]
-- !private ["So8NSObjectC", "NSError"]
 - !private ["So8NSObjectC", "NSLocalizedString"]
 - ["So8NSObjectC", "UIButton"]
-- ["So8NSObjectC", "UIStoryboardSegue"]
 - !private ["So8NSObjectC", "UITapGestureRecognizer"]
 - ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "UITextFieldDelegate"]
 - !private ["So8NSObjectC", "addGestureRecognizer"]
 - !private ["So8NSObjectC", "auth"]
 - !private ["So8NSObjectC", "becomeFirstResponder"]
@@ -310,14 +301,12 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isEmptyOrNil"]
 - !private ["So8NSObjectC", "isValidEmail"]
-- ["So8NSObjectC", "logout"]
+- ["So8NSObjectC", "logInButtonPressed"]
 - ["So8NSObjectC", "passwordField"]
 - !private ["So8NSObjectC", "performSegue"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "reportError"]
 - !private ["So8NSObjectC", "signIn"]
-- !private ["So8NSObjectC", "signOut"]
-- ["So8NSObjectC", "signUpButtonPressed"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "textField"]
 - ["So8NSObjectC", "textFieldDidBeginEditing"]
@@ -351,7 +340,6 @@ depends-member:
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "reportError"]
 - !private ["So8NSObjectP", "signIn"]
-- !private ["So8NSObjectP", "signOut"]
 - !private ["So8NSObjectP", "text"]
 - ["So8NSObjectP", "textField"]
 - ["So8NSObjectP", "textFieldDidBeginEditing"]
@@ -536,12 +524,11 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "Bool"]
-- !private ["So11UIResponderC", "NSError"]
 - !private ["So11UIResponderC", "NSLocalizedString"]
 - ["So11UIResponderC", "UIButton"]
-- ["So11UIResponderC", "UIStoryboardSegue"]
 - !private ["So11UIResponderC", "UITapGestureRecognizer"]
 - ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "UITextFieldDelegate"]
 - !private ["So11UIResponderC", "addGestureRecognizer"]
 - !private ["So11UIResponderC", "becomeFirstResponder"]
 - !private ["So11UIResponderC", "delegate"]
@@ -552,12 +539,11 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isEmptyOrNil"]
 - !private ["So11UIResponderC", "isValidEmail"]
-- ["So11UIResponderC", "logout"]
+- ["So11UIResponderC", "logInButtonPressed"]
 - ["So11UIResponderC", "passwordField"]
 - !private ["So11UIResponderC", "performSegue"]
 - !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "reportError"]
-- ["So11UIResponderC", "signUpButtonPressed"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "textField"]
 - ["So11UIResponderC", "textFieldDidBeginEditing"]
@@ -739,12 +725,11 @@ depends-member:
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "Bool"]
-- !private ["So16UIViewControllerC", "NSError"]
 - !private ["So16UIViewControllerC", "NSLocalizedString"]
 - ["So16UIViewControllerC", "UIButton"]
-- ["So16UIViewControllerC", "UIStoryboardSegue"]
 - !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
 - ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "UITextFieldDelegate"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "dismissKeyboard"]
@@ -752,12 +737,11 @@ depends-member:
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "isEmptyOrNil"]
 - !private ["So16UIViewControllerC", "isValidEmail"]
-- ["So16UIViewControllerC", "logout"]
+- ["So16UIViewControllerC", "logInButtonPressed"]
 - ["So16UIViewControllerC", "passwordField"]
 - !private ["So16UIViewControllerC", "performSegue"]
 - !private ["So16UIViewControllerC", "print"]
 - !private ["So16UIViewControllerC", "reportError"]
-- ["So16UIViewControllerC", "signUpButtonPressed"]
 - ["So16UIViewControllerC", "textField"]
 - ["So16UIViewControllerC", "textFieldDidBeginEditing"]
 - ["So16UIViewControllerC", "textFieldDidChangeSelection"]
@@ -772,12 +756,11 @@ depends-member:
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["8MHacks1219ViewControllerLogInC", "Auth"]
 - ["8MHacks1219ViewControllerLogInC", "Bool"]
-- !private ["8MHacks1219ViewControllerLogInC", "NSError"]
 - !private ["8MHacks1219ViewControllerLogInC", "NSLocalizedString"]
 - ["8MHacks1219ViewControllerLogInC", "UIButton"]
-- ["8MHacks1219ViewControllerLogInC", "UIStoryboardSegue"]
 - !private ["8MHacks1219ViewControllerLogInC", "UITapGestureRecognizer"]
 - ["8MHacks1219ViewControllerLogInC", "UITextField"]
+- !private ["8MHacks1219ViewControllerLogInC", "UITextFieldDelegate"]
 - ["8MHacks1219ViewControllerLogInC", "deinit"]
 - ["8MHacks1219ViewControllerLogInC", "didReceiveMemoryWarning"]
 - ["8MHacks1219ViewControllerLogInC", "dismissKeyboard"]
@@ -785,12 +768,11 @@ depends-member:
 - ["8MHacks1219ViewControllerLogInC", "init"]
 - !private ["8MHacks1219ViewControllerLogInC", "isEmptyOrNil"]
 - !private ["8MHacks1219ViewControllerLogInC", "isValidEmail"]
-- ["8MHacks1219ViewControllerLogInC", "logout"]
+- ["8MHacks1219ViewControllerLogInC", "logInButtonPressed"]
 - ["8MHacks1219ViewControllerLogInC", "passwordField"]
 - !private ["8MHacks1219ViewControllerLogInC", "performSegue"]
 - !private ["8MHacks1219ViewControllerLogInC", "print"]
 - !private ["8MHacks1219ViewControllerLogInC", "reportError"]
-- ["8MHacks1219ViewControllerLogInC", "signUpButtonPressed"]
 - ["8MHacks1219ViewControllerLogInC", "textField"]
 - ["8MHacks1219ViewControllerLogInC", "textFieldDidBeginEditing"]
 - ["8MHacks1219ViewControllerLogInC", "textFieldDidChangeSelection"]
@@ -823,7 +805,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reportError"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "signOut"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textField"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "textFieldDidBeginEditing"]
@@ -857,7 +838,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reportError"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signIn"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signOut"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textField"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textFieldDidBeginEditing"]
@@ -2205,4 +2185,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "65ed44801106c351743e8e8235909c46"
+interface-hash: "9fe2da8f1c7d34e1fb99377f78bd830d"

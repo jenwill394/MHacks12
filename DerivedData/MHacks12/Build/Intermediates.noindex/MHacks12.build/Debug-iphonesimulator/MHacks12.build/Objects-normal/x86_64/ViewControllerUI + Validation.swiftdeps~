@@ -1,103 +1,340 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "ViewControllerUI___Validation"
 provides-nominal:
-- "8MHacks1229ViewControllerUI___ValidationC"
 provides-member:
-- ["8MHacks1229ViewControllerUI___ValidationC", ""]
-provides-dynamic-lookup:
-- "viewDidLoad"
-depends-top-level:
-- "UIViewController"
-- "ViewControllerUI___Validation"
-depends-member:
-- ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "viewDidLoad"]
-- ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- ["SQ", ""]
-- !private ["SQ", "init"]
-- !private ["SQ", "viewDidLoad"]
-- ["SH", ""]
-- !private ["SH", "init"]
-- !private ["SH", "viewDidLoad"]
-- ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "viewDidLoad"]
-- ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "init"]
-- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "viewDidLoad"]
-- ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "viewDidLoad"]
-- ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "init"]
-- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
-- ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "init"]
-- !private ["So18UIContentContainerP", "viewDidLoad"]
-- ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
-- ["So11UIResponderC", "init"]
-- ["So11UIResponderC", "viewDidLoad"]
-- ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "init"]
-- !private ["So16UIStateRestoringP", "viewDidLoad"]
-- ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
-- ["So23UIUserActivityRestoringP", ""]
-- !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
-- ["So16UIViewControllerC", "init"]
-- ["So16UIViewControllerC", "viewDidLoad"]
-- ["8MHacks1229ViewControllerUI___ValidationC", "deinit"]
-- ["8MHacks1229ViewControllerUI___ValidationC", "init"]
-- ["8MHacks1229ViewControllerUI___ValidationC", "viewDidLoad"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["So16UIViewControllerC", "isValidPassword"]
+- ["So16UIViewControllerC", "isEmptyOrNil"]
+- ["So16UIViewControllerC", "isValidEmail"]
+- ["So16UIViewControllerC", "reportError"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "NSPredicate"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIViewController"
+depends-member:
+- !private ["SK", "lowercased"]
+- !private ["SK", "range"]
+- !private ["s7CVarArgP", "NSPredicate"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "evaluate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "range"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "range"]
+- !private ["SL", "lowercased"]
+- !private ["SL", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPredicate"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "evaluate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "range"]
+- !private ["s23CustomStringConvertibleP", "NSPredicate"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "evaluate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "range"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "range"]
+- !private ["SQ", "NSPredicate"]
+- !private ["SQ", "UIAlertAction"]
+- !private ["SQ", "UIAlertController"]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "default"]
+- !private ["SQ", "evaluate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "present"]
+- !private ["SQ", "range"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "range"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["SH", "NSPredicate"]
+- !private ["SH", "UIAlertAction"]
+- !private ["SH", "UIAlertController"]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "default"]
+- !private ["SH", "evaluate"]
+- !private ["SH", "init"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "present"]
+- !private ["SH", "range"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", "range"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["s10MirrorPathP", "range"]
+- !private ["So8NSCodingP", "NSPredicate"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "evaluate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So9NSCopyingP", "evaluate"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So26NSExtensionRequestHandlingP", "NSPredicate"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "range"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "NSPredicate"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "evaluate"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isEmptyOrNil"]
+- ["So8NSObjectC", "isValidEmail"]
+- ["So8NSObjectC", "isValidPassword"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "range"]
+- ["So8NSObjectC", "reportError"]
+- !private ["So8NSObjectP", "NSPredicate"]
+- !private ["So8NSObjectP", "UIAlertAction"]
+- !private ["So8NSObjectP", "UIAlertController"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "evaluate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So11NSPredicateC", "evaluate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "evaluate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["So8NSStringC", "range"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "range"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "range"]
+- !private ["SS", "lowercased"]
+- !private ["SS", "range"]
+- !private ["Sy", "lowercased"]
+- !private ["Sy", "range"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s16TextOutputStreamP", "range"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "range"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So21UIAppearanceContainerP", "NSPredicate"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So18UIContentContainerP", "NSPredicate"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIFocusEnvironmentP", "NSPredicate"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSPredicate"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "NSPredicate"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isEmptyOrNil"]
+- ["So11UIResponderC", "isValidEmail"]
+- ["So11UIResponderC", "isValidPassword"]
+- !private ["So11UIResponderC", "present"]
+- ["So11UIResponderC", "reportError"]
+- !private ["So30UIResponderStandardEditActionsP", "NSPredicate"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "NSPredicate"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So18UITraitEnvironmentP", "NSPredicate"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So23UIUserActivityRestoringP", "NSPredicate"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertAction"]
+- !private ["So23UIUserActivityRestoringP", "UIAlertController"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "NSPredicate"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "isEmptyOrNil"]
+- ["So16UIViewControllerC", "isValidEmail"]
+- ["So16UIViewControllerC", "isValidPassword"]
+- !private ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "reportError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "range"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "range"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "range"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "range"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "evaluate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPredicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIAlertController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "evaluate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "range"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "range"]
 depends-nominal:
-- "s7CVarArgP"
-- "s28CustomDebugStringConvertibleP"
-- "s23CustomStringConvertibleP"
-- "SQ"
-- "SH"
-- "So8NSCodingP"
-- "So26NSExtensionRequestHandlingP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
-- "So21UIAppearanceContainerP"
-- "So18UIContentContainerP"
-- "So18UIFocusEnvironmentP"
-- "So30UIPasteConfigurationSupportingP"
+- !private "So8NSObjectP"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
-- "So30UIResponderStandardEditActionsP"
-- "So16UIStateRestoringP"
-- "So18UITraitEnvironmentP"
-- "So23UIUserActivityRestoringP"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
-- "8MHacks1229ViewControllerUI___ValidationC"
-- "10Foundation27_KeyValueCodingAndObservingP"
-- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -1358,4 +1595,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "2a110984332873d4c7793f4723bd9634"
+interface-hash: "8ff577fead2c8e4f5fb169090ce7690d"

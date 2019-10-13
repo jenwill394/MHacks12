@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F890FB99DEC43CE8EF2229F354081EA2F5B5AD6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F890FB99DEC43CE8EF2229F354081EA2F5B5AD6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18E93EE4-532B-4D77-B469-B5312F3AFF5E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F890FB99DEC43CE8EF2229F354081EA2F5B5AD6" : "MHacks12\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MHacks12",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MHacks12.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jenwill394\/MHacks12.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F890FB99DEC43CE8EF2229F354081EA2F5B5AD6"
+    }
+  ]
+}

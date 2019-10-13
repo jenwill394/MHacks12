@@ -49,7 +49,7 @@ class ViewControllerSignUp: UIViewController {
                 Auth.auth().createUser(withEmail: self.emailField.text!, password:
                 self.passwordField.text!) { (user, error) in
                     if let  _ = user {
-                        self.performSegue(withIdentifier: "segueToMainFromSignUp", sender: self)
+                        self.performSegue(withIdentifier: "Home", sender: self)
                     } else {
                         self.reportError(msg: (error?.localizedDescription)!)
                     }
@@ -61,9 +61,6 @@ class ViewControllerSignUp: UIViewController {
             }
         }
         
-        @IBAction func cancelButtonPressed(_ sender: UIButton) {
-            self.dismiss(animated: true, completion: nil)
-        }
         
     }
 

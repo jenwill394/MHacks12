@@ -26,8 +26,8 @@ class ViewControllerLogIn: UIViewController {
             self.view.addGestureRecognizer(detectTouch)
             
             // make this controller the delegate of the text fields.
-            self.emailField.delegate = self
-            self.passwordField.delegate = self
+            self.emailField.delegate = self as! UITextFieldDelegate
+            self.passwordField.delegate = self as! UITextFieldDelegate
         }
         
         override func didReceiveMemoryWarning() {
@@ -57,7 +57,7 @@ class ViewControllerLogIn: UIViewController {
                 Auth.auth().signIn(withEmail: self.emailField.text!, password:
                 self.passwordField.text!) { (user, error) in
                     if let _ = user {
-                        self.performSegue(withIdentifier: "segueToMain", sender: self)
+                        self.performSegue(withIdentifier: "View", sender: self)
                     } else {
                         self.reportError(msg: (error?.localizedDescription)!)
                         self.passwordField.text = ""
@@ -70,15 +70,16 @@ class ViewControllerLogIn: UIViewController {
         }
         
     }
-    extension ViewControllerLogIn : UITextFieldDelegate {
-        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-            if textField == self.emailField {
-                self.passwordField.becomeFirstResponder()
-            } else {
-                if self.validateFields() {
-                    print(NSLocalizedString("Congratulations! You entered correct values.", comment: ""))
-                }
+extension ViewControllerLogIn : UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == self.emailField {
+            self.passwordField.becomeFirstResponder()
+        } else {
+            if self.validateFields() {
+                print(NSLocalizedString("Congratulations! You entered correct values.", comment: ""))
             }
-            return true
         }
+        return true
     }
+}
+
